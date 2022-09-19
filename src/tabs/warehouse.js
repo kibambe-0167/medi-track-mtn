@@ -7,6 +7,11 @@ const WareH = () => {
   const [ tab, setTab ] = useState( 1);
   const [ data, setData ] = useState();
 
+  useEffect(() => {
+    setData(null);
+    setData( 1 );
+  }, [])
+
 
   //Adding method.
   const add = () => {};

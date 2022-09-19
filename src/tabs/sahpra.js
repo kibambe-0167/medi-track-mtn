@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import '../App.css';
 
 const Sahpra = () => {
 
   const [medicine, setMedicine] = useState({});
   const [tab, setTab] = useState(1);
-  const [data, setData] = useState();
+  // const [data, setData] = useState();
 
   //Adding method.
   const add = () => { };
 
+  useEffect(() => {
+    setTab( 1 );
+  }, [])
   return (
 
     <div className="manu" >

@@ -4,8 +4,8 @@ import '../App.css';
 const Clinic = () => {
 
   const [medicine, setMedicine ] = useState({});
-  const [ tab, setTab ] = useState(1);
-  const [ data, setData ] = useState();
+  // const [ tab, setTab ] = useState(1);
+  // const [ data, setData ] = useState();
 
   //Adding method.
   const verify = async () => {
