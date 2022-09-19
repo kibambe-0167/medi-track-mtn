@@ -1,11 +1,18 @@
 import React, {useState} from 'react';
+import { useEffect } from 'react';
 import '../App.css';
 
 const Clinic = () => {
 
   const [medicine, setMedicine ] = useState({});
-  // const [ tab, setTab ] = useState(1);
-  // const [ data, setData ] = useState();
+  const [ tab, setTab ] = useState(1);
+  const [ data, setData ] = useState();
+
+
+  useEffect(() => {
+    setTab(1);
+    setData( null);
+  }, [])
 
   //Adding method.
   const verify = async () => {
