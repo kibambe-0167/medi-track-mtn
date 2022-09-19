@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+    .App {
+        /* background-color: red; */
+        font-size: 1em;
+    }
+    .App .header {
+        /* background -color: yellow; */
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1em;
+        border-bottom: .09em solid rgba(150, 150, 150, .7);
+        margin-bottom: .5em;
+    }
+    .App .header .title {
+        /* background-color: pink; */
+        width: 100%;
+        text-align: left;
+        padding-left: .2em;
+        font-size: 2em;
+        color: "#fff";
+    }
+    .App .tabs {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        padding-left: .5em;
+        padding-right: .5em;
+        margin-top: .5em;
+    }
+    .App .scanMedBtn {
+        /* background-color: red; */
+        width: 100%;
+        padding-left: .5em;
+    }
+    .App .scanBtn {
+        background-color: rgb(91, 6, 63);
+        border: 0;
+        padding: .5em 1em;
+        color: white;
+        font-size: 1em;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    /* on hover */
+    .App .scanBtn:hover {
+        background-color: rgb(210, 26, 189);
+        border: 0;
+        padding: .5em 1em;
+        color: white;
+        font-size: 1em;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    .App .qrcodeWrapper {
+        /* background-color: yellow; */
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .App .closePopUp {
+        padding-top: 1em;
+        padding-right: 1em;
+    }
+    .App .qrcodeContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    .App .qrScanner {
+        border-radius: 1em;
+        padding: 0em;
+        background-color: #780558;
+    }
+    .qrcodeWrapper .manufacResult {
+        background-color: green;
+        color: white;
+        font-size: 1.3em;
+        text-align: center;
+        padding: .5em;
+        border-radius: .3em;
+    }
+    .qrcodeWrapper {
+        letter-spacing: "1px";
+        padding: .5em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .App .qrcodeContainer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: red; */
+    }
+}

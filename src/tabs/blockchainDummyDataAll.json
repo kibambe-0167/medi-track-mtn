@@ -1,0 +1,33 @@
+[{
+        "medId": "123456789panado",
+        "name": "panado",
+        "expiry_date": "11,22,334",
+        "side_effect": "dizziness, fatigue, headaches",
+        "information": "pains,",
+        "made_by": "dischem",
+        "approve_by": "SAHPRA",
+        "Verified": "1",
+        "quantity": 100
+    },
+    {
+        "medId": "iugytv85yo#2374diabetes",
+        "name": "metformin",
+        "expiry_date": "11,22,334",
+        "side_effect": "Loss of appetite, Stomach ache, Stomach ache",
+        "information": "helps with blood ,",
+        "made_by": "clicks",
+        "approve_by": "SAHPRA",
+        "Verified": "1",
+        "quantity": 1
+    }, {
+        "medId": "498tyn54y9843arv",
+        "name": "antiretroviral",
+        "expiry_date": "11,22,334",
+        "side_effect": "bleeding, heart disease, pancreas damage",
+        "information": "pains,",
+        "made_by": "pfizer",
+        "approve_by": "SAHPRA",
+        "Verified": "0",
+        "quantity": 50
+    }
+]

@@ -1,0 +1,259 @@
+.App {
+    /* text-align: center; */
+    /* min-height: 100vh; */
+    background-color: white;
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+
+.App .addMedBtn {
+    background-color: rgb(91, 6, 63);
+    border: 0;
+    width: 100%;
+    padding: .5em 1em;
+    color: white;
+    font-size: 1em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.App .addMedBtn {
+    background-color: rgb(131, 10, 90);
+}
+
+.App .tab {
+    background-color: rgb(131, 10, 90);
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.App .tab:hover {
+    background-color: rgb(131, 10, 90);
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* CONSUMER */
+
+.consumer .pointsMsg {
+    color: #000;
+    font-size: 3em;
+}
+
+
+/* main section */
+
+
+/* .App .main {
+    background-color: rgb(153, 55, 155); 
+} */
+
+
+/*  */
+
+
+/* manufacturer component */
+
+.manu .addMeds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 80%;
+    text-align: center;
+}
+
+.manu .input_ {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(190, 89, 153);
+    width: 96%;
+    /* position: relative; */
+}
+
+.manu .addBtn {
+    background-color: rgb(184, 69, 173);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 0em;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.manu .manuTabs {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.manu .manuTab {
+    color: white;
+    background-color: rgb(184, 69, 173);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 0em;
+    cursor: pointer;
+}
+
+.manu .manuTab:hover {
+    background-color: rgb(210, 26, 189);
+    color: rgb(46, 8, 92);
+}
+
+.manu .manuData {
+    background-color: white;
+}
+
+.manu .qrcode {
+    width: 100%;
+    height: 10em;
+}
+
+.qrcodeWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 95%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.closePopUp {
+    /* background-color: purple; */
+    align-items: flex-end;
+    display: flex;
+    justify-content: right;
+}
+
+.manufacturerData {
+    background-color: yellow;
+}
+
+.manu .scanResult {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.manu .scanResult p {
+    font-size: 1em;
+}
+
+.manu .scanResultNotVerify {
+    background-color: red;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.manu .inputMedsId {
+    /* background-color: yellow; */
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scanMedBtns {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* meds */
+
+.medsContainer {
+    background-color: inherit;
+    margin-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.medicine {
+    background-color: rgb(184, 69, 173);
+    padding: .5em;
+    margin-bottom: .5em;
+    border-radius: .4em;
+}
+
+.medName {
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+    text-transform: capitalize;
+}
+
+
+/*  */
+
+
+/* CONSUMER PAGE */
+
+.App .consumer .inputMedsId {
+    /* background-color: yellow; */
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_ {
+    width: 96%;
+    padding-left: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border: .1em solid rgb(210, 26, 189);
+    ;
+}
+
+.input_:active,
+.input_:hover,
+.input_:focus {
+    border: .1em solid rgb(210, 26, 189);
+}
+
+.validateBtn {
+    background-color: #780558;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    border-radius: .3em;
+}
+
+.validateBtn:hover {
+    background-color: rgb(210, 26, 189);
+}
